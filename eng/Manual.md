@@ -85,4 +85,4 @@ Importing images
 1. Find the url of the image you wish to input into your code.
 2. Type in  "![alt text](Your url) " into the code.
 
-![alt text](https://github.com/JaeNahm421/test1/blob/master/eng/image-20190808171313466.png)
+![Image](/Users/victor/Library/Application Support/typora-user-images/image-20190808173701076.png)
