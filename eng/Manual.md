@@ -83,15 +83,9 @@ Importing images
 ```
 
 1. Find the image.
-
 2. Drag and drop the image into the part of the code you wish to put it into.
 
-   
+```
+![image-20190808171313466](Users/victor/Documents/GitHub/test1/eng/image-20190808171313466.png)
+```
 
-1. Go to files and select import.
-
-2. Select the image in your folder and drop it into the desired location.
-
-   
-
-![image-20190808171313466](/Users/victor/Documents/GitHub/test1/eng/image-20190808171313466.png)
