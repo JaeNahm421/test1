@@ -20,13 +20,13 @@ The first thing one should do is install Git in order to access the repository.
 	*Mac* - git-scm.com/download/mac
 	*Windows* - git-scm.com/download/win
 
-One should also already have an account made at https://github.com. 
+One should also already have an account made at https://github.com. Register an email, password to get started.
 
 Opening your computer’s command prompt, you should learn some basic commands that will allow you to access the repository.
 
-On the Mac, access the command prompt through the terminal.
+On the Mac, access the command prompt through the terminal by searching for the program through the search option on the top right.
 
-On Windows, access the command prompt by utilizing the run function and typing in cmd.
+On Windows, access the command prompt by typing run in the search bar and typing in cmd or right clicking on the bottom of the screen on Windows 10 and selecting the command prompt.
 
 ```
 Commands:
@@ -35,6 +35,7 @@ Commands:
 **cd:** Stands for change directory, it allows you to go through your files on the command prompt.
 
 **cd** .. (allows you to go up a directory)
+
 **cd** xxxx (allows you to a certain directory, xxxx stands for directory you wish to go such as documents; username/downloads; desktop)
 
 l**s(mac)/dir(windows):** Allows you to see the files in your directory.
@@ -46,6 +47,8 @@ l**s(mac)/dir(windows):** Allows you to see the files in your directory.
 **git add:** Adds new files or changes to the repository.
 
 **git commit ( -m “message here”):** To commit the file or change to the repository after adding it in.(Does not sync it up with the github yet) -m is input a message for the change.
+
+(Press the esc button and then type :wq to escape the message line if do not put a message after the -m command and wish to escape.)
 
 **git push:** Pushes any changes made on the machine to the github, changing the project on the repository. 
 
@@ -63,13 +66,93 @@ Utilizing Altibase’s repository
 ```
 
 1. Open up the command prompt on your computer.
-2. Use command cd(command directory) and cd .. to navigate through the files and find your github folder 
+
+2. Use command cd(command directory) and cd .. to navigate through the files and find your github folder. 
+
+   Type in ls to determine the files inside of your directory. 
+
+   Examples: Typing in ls in amsesm:~ username$ would show 
+   Applications	Documents	Library		Music		Public
+
+   Desktop		Downloads	Movies		Pictures
+
+   The command cd Documents would put you in the Documents folder.
+
+   The command cd .. would put you out of Documents and back to your username folder.
+
+   The github folder will automatically download in the documents folder unless stated otherwise. There is where all your Altibase repositories will go.
+
 3. Use command git clone (copied link) to put the repository in desired folder.
    (This will put a copy of the repository in the folder)
-4. Input any desired files and changes into said folder. 
-5. Use command git status to identify any untracked files in the folder.
-6. Use command git add (desired files) to add the changes to the repository.
+
+   Type in the command ls to determine the name of the repository.
+
+   Example: If done correctly, GitHub/Documents should give you the following Altibase folders:
+
+   Manuals			ReleaseNotes
+
+   PatchNotes		Technical Documents
+
+4. Input any desired files and changes through your desired code writing program.
+
+5. Use command git status to identify any untracked files in the folder. 
+   Changing this file would give a message like this:
+
+
+   On branch master
+
+   Your branch is up to date with 'origin/master'.
+
+   
+
+   Changes not staged for commit:
+
+     (use "git add <file>..." to update what will be committed)
+
+     (use "git checkout -- <file>..." to discard changes in working directory)
+
+   
+
+   ​	modified:   Manual.md
+
+   
+
+   no changes added to commit (use "git add" and/or "git commit -a")
+
+   
+
+6. Use command git add (desired files) or git add ..(to add all changes) to add changes to the repository.
+
 7. Use command git commit (-m “ “ to input any messages) to lock desired changes to the repository.
+
+   (Press the esc button and then type :wq to escape the message line if do not put a message after the -m command and wish to escape the message that it prompts you to make)
+
+   Example:
+
+   \# Please enter the commit message for your changes. Lines starting
+
+   \# with '#' will be ignored, and an empty message aborts the commit.
+
+   \#
+
+   \# On branch master
+
+   \# Your branch is up to date with 'origin/master'.
+
+   \#
+
+   \# Changes to be committed:
+
+   \#       modified:   Manual.md
+
+   \#
+
+   \# Changes not staged for commit:
+
+   \#       modified:   Manual.md
+
+   \#
+
 8. Use command git push to add the desired changes to the Altibase github.
 
 ```
