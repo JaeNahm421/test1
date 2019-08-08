@@ -85,4 +85,4 @@ Importing images
 1. Find the url of the image you wish to input into your code.
 2. Type in  "![alt text](Your url) " into the code.
 
-![Image](/Users/victor/Library/Application Support/typora-user-images/image-20190808173701076.png)
+![Image](https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
