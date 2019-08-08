@@ -85,7 +85,4 @@ Importing images
 1. Find the image.
 2. Drag and drop the image into the part of the code you wish to put it into.
 
-```
 ![alt text](https://github.com/JaeNahm421/test1/blob/master/eng/image-20190808171313466.png)
-```
-
