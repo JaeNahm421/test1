@@ -86,6 +86,6 @@ Importing images
 2. Drag and drop the image into the part of the code you wish to put it into.
 
 ```
-![image-20190808171313466](Users/victor/Documents/GitHub/test1/eng/image-20190808171313466.png)
+![alt text](Users/victor/Documents/GitHub/test1/eng/image-20190808171313466.png)
 ```
 
