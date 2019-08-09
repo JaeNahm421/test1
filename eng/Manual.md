@@ -12,6 +12,26 @@ Some benefits of github include:
 - Tracking changes in code as it goes through different versions.
 - Easy public access that allows anyone to contribute and see.
 
+![Image](https://photos.google.com/search/_tra_/photo/AF1QipN8cWD5pZq3q0PLatzYbgdKegcUVHHGXs0gDWdw)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ```
 Downloading from the Repository 
 ```
@@ -20,13 +40,29 @@ The first thing one should do is install Git in order to access the repository.
 	*Mac* - git-scm.com/download/mac
 	*Windows* - git-scm.com/download/win
 
-One should also already have an account made at https://github.com. Register an email, password to get started.
+One should also already have an account made at https://github.com. Register an email, username and password to get started.
+
+![Image](https://photos.google.com/photo/AF1QipN4gkTKnYiAdV-LlJbvEopaK14fdSEPA083a--u)
+
+
+
+
+
+
+
+
+
+
 
 Opening your computer’s command prompt, you should learn some basic commands that will allow you to access the repository.
 
 On the Mac, access the command prompt through the terminal by searching for the program through the search option on the top right.
+![Image1](https://photos.google.com/search/_tra_/photo/AF1QipMpelHpV0WCnZvCotYJidKP1pVVcjdMRFZ7tMAr)
 
 On Windows, access the command prompt by typing run in the search bar and typing in cmd or right clicking on the bottom of the screen on Windows 10 and selecting the command prompt.
+You should get a window like this.
+
+![Image1](https://www.howtogeek.com/wp-content/uploads/2017/06/wrb_top-650x300.png)
 
 ```
 Commands:
@@ -58,7 +94,7 @@ l**s(mac)/dir(windows):** Allows you to see the files in your directory.
 
 	Accessing Altibase’s repository
 1. Go to Altibase’s Github at https://github.com/ALTIBASE.
-2. Access the desired repository in the website in this case, go to Documents.
+2. To access the desired repository in the website in this case, go to Documents.
 3. Clone the url through the green button on the link.
 
 ```
@@ -69,59 +105,33 @@ Utilizing Altibase’s repository
 
 2. Use command cd(command directory) and cd .. to navigate through the files and find your github folder. 
 
+
    Type in ls to determine the files inside of your directory. 
-
-   Examples: Typing in ls in amsesm:~ username$ would show 
-   Applications	Documents	Library		Music		Public
-
-   Desktop		Downloads	Movies		Pictures
 
    The command cd Documents would put you in the Documents folder.
 
    The command cd .. would put you out of Documents and back to your username folder.
 
-   The github folder will automatically download in the documents folder unless stated otherwise. There is where all your Altibase repositories will go.
+   The github folder will automatically download in the documents folder unless stated otherwise. That is where all your Altibase repositories will go.
 
 3. Use command git clone (copied link) to put the repository in desired folder.
    (This will put a copy of the repository in the folder)
 
    Type in the command ls to determine the name of the repository.
-
-   Example: If done correctly, GitHub/Documents should give you the following Altibase folders:
-
-   Manuals			ReleaseNotes
-
-   PatchNotes		Technical Documents
+   
 
 4. Input any desired files and changes through your desired code writing program.
 
+   
+
 5. Use command git status to identify any untracked files in the folder. 
-   Changing this file would give a message like this:
-
-
-   On branch master
-
-   Your branch is up to date with 'origin/master'.
-
    
-
-   Changes not staged for commit:
-
-     (use "git add <file>..." to update what will be committed)
-
-     (use "git checkout -- <file>..." to discard changes in working directory)
-
-   
-
-   ​	modified:   Manual.md
-
-   
-
-   no changes added to commit (use "git add" and/or "git commit -a")
 
    
 
 6. Use command git add (desired files) or git add ..(to add all changes) to add changes to the repository.
+
+   
 
 7. Use command git commit (-m “ “ to input any messages) to lock desired changes to the repository.
 
