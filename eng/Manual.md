@@ -12,7 +12,7 @@ Some benefits of github include:
 - Tracking changes in code as it goes through different versions.
 - Easy public access that allows anyone to contribute and see.
 
-![Image](https://photos.google.com/search/_tra_/photo/AF1QipN8cWD5pZq3q0PLatzYbgdKegcUVHHGXs0gDWdw)
+![Image](https://www.dropbox.com/home/AA?preview=AA.png)
 
 
 
@@ -94,7 +94,15 @@ l**s(mac)/dir(windows):** Allows you to see the files in your directory.
 
 	Accessing Altibase’s repository
 1. Go to Altibase’s Github at https://github.com/ALTIBASE.
+
 2. To access the desired repository in the website in this case, go to Documents.
+
+   ![Image](https://ibb.co/Y0kpwWT)
+
+   
+
+   
+
 3. Clone the url through the green button on the link.
 
 ```
@@ -137,31 +145,7 @@ Utilizing Altibase’s repository
 
    (Press the esc button and then type :wq to escape the message line if do not put a message after the -m command and wish to escape the message that it prompts you to make)
 
-   Example:
-
-   \# Please enter the commit message for your changes. Lines starting
-
-   \# with '#' will be ignored, and an empty message aborts the commit.
-
-   \#
-
-   \# On branch master
-
-   \# Your branch is up to date with 'origin/master'.
-
-   \#
-
-   \# Changes to be committed:
-
-   \#       modified:   Manual.md
-
-   \#
-
-   \# Changes not staged for commit:
-
-   \#       modified:   Manual.md
-
-   \#
+   
 
 8. Use command git push to add the desired changes to the Altibase github.
 
@@ -171,11 +155,3 @@ Using Typora
 
 Typora is a simple code writing program that allows you to edit code while utilizing github.
 
-```
-Importing images
-```
-
-1. Find the url of the image you wish to input into your code.
-2. Type in  "![alt text](Your url) " into the code.
-
-![Image](https://images.pexels.com/photos/67636/rose-blue-flower-rose-blooms-67636.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500)
