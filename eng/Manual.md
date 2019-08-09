@@ -12,25 +12,7 @@ Some benefits of github include:
 - Tracking changes in code as it goes through different versions.
 - Easy public access that allows anyone to contribute and see.
 
-![Image](https://www.dropbox.com/home/AA?preview=AA.png)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+![Image](https://user-images.githubusercontent.com/98681/53048332-597afc80-3449-11e9-899d-e1897031e70e.png)
 
 ```
 Downloading from the Repository 
@@ -42,22 +24,10 @@ The first thing one should do is install Git in order to access the repository.
 
 One should also already have an account made at https://github.com. Register an email, username and password to get started.
 
-![Image](https://photos.google.com/photo/AF1QipN4gkTKnYiAdV-LlJbvEopaK14fdSEPA083a--u)
-
-
-
-
-
-
-
-
-
-
-
-Opening your computer’s command prompt, you should learn some basic commands that will allow you to access the repository.
+![Image](https://i.imgur.com/fLJ1lQn.png)
 
 On the Mac, access the command prompt through the terminal by searching for the program through the search option on the top right.
-![Image1](https://photos.google.com/search/_tra_/photo/AF1QipMpelHpV0WCnZvCotYJidKP1pVVcjdMRFZ7tMAr)
+![Image1](https://i.imgur.com/BT1KntD.png)
 
 On Windows, access the command prompt by typing run in the search bar and typing in cmd or right clicking on the bottom of the screen on Windows 10 and selecting the command prompt.
 You should get a window like this.
@@ -67,6 +37,8 @@ You should get a window like this.
 ```
 Commands:
 ```
+
+Opening your computer’s command prompt, you should learn some basic commands that will allow you to access the repository.
 
 **cd:** Stands for change directory, it allows you to go through your files on the command prompt.
 
@@ -95,9 +67,11 @@ l**s(mac)/dir(windows):** Allows you to see the files in your directory.
 	Accessing Altibase’s repository
 1. Go to Altibase’s Github at https://github.com/ALTIBASE.
 
+   ![Image](https://i.imgur.com/tQDyvdk.png)
+
 2. To access the desired repository in the website in this case, go to Documents.
 
-   ![Image](https://ibb.co/Y0kpwWT)
+   ![Image](https://i.imgur.com/arCk4rB.png)
 
    
 
@@ -105,13 +79,16 @@ l**s(mac)/dir(windows):** Allows you to see the files in your directory.
 
 3. Clone the url through the green button on the link.
 
+   ![Image](https://i.imgur.com/kbwMBS5.png)
+
 ```
 Utilizing Altibase’s repository
 ```
 
 1. Open up the command prompt on your computer.
 
-2. Use command cd(command directory) and cd .. to navigate through the files and find your github folder. 
+2. Use command cd(command directory) and cd .. to navigate through the files and find your github folder.
+   ![Image](https://i.imgur.com/f5frlWE.png)
 
 
    Type in ls to determine the files inside of your directory. 
@@ -126,28 +103,36 @@ Utilizing Altibase’s repository
    (This will put a copy of the repository in the folder)
 
    Type in the command ls to determine the name of the repository.
-   
+   ![Image](https://i.imgur.com/a80wiEO.png)
 
 4. Input any desired files and changes through your desired code writing program.
 
-   
+   ``` From here, I will be using a custom repository called test1 as an example```.
 
 5. Use command git status to identify any untracked files in the folder. 
-   
 
-   
+   ![Image](https://i.imgur.com/JhRTvTI.png)
+
+   As shown, Manual.md is shown as the file that is different from the machine's file and the GitHub's file.
 
 6. Use command git add (desired files) or git add ..(to add all changes) to add changes to the repository.
 
-   
+   ![Image](https://i.imgur.com/d9OHJfa.png)
+
+   The box in the red line indicates what happens if you try to add something while you are not in the correct dictionary.
 
 7. Use command git commit (-m “ “ to input any messages) to lock desired changes to the repository.
 
+   ![Image](https://i.imgur.com/d12iJhS.png)
+
+   This command prompt shows what has been changed on the repository.
+
+   ![Image](https://i.imgur.com/7CV2biE.png)
+
    (Press the esc button and then type :wq to escape the message line if do not put a message after the -m command and wish to escape the message that it prompts you to make)
 
-   
-
 8. Use command git push to add the desired changes to the Altibase github.
+   ![Image](https://i.imgur.com/2xYpArb.png)
 
 ```
 Using Typora
