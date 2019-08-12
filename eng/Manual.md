@@ -27,6 +27,7 @@ One should also already have an account made at https://github.com. Register an 
 ![Image](https://i.imgur.com/fLJ1lQn.png)
 
 On the Mac, access the command prompt through the terminal by searching for the program through the search option on the top right.
+
 ![Image1](https://i.imgur.com/BT1KntD.png)
 
 On Windows, access the command prompt by typing run in the search bar and typing in cmd or right clicking on the bottom of the screen on Windows 10 and selecting the command prompt.
@@ -40,25 +41,47 @@ Commands:
 
 Opening your computer’s command prompt, you should learn some basic commands that will allow you to access the repository.
 
-**cd:** Stands for change directory, it allows you to go through your files on the command prompt.
+**cd:** Stands for change directory, it allows you to go through your files on the command prompt. 
+Example: Typing cd Documents in the command line will allow you to go to the documents folder.
+(Only works if there is a Documents folder in the folder you are currently on.)
 
 **cd** .. (allows you to go up a directory)
+Example: Being in Username/Documents and typing cd .. will make you go back up to the Username folder and out of the Documents folder.
 
 **cd** xxxx (allows you to a certain directory, xxxx stands for directory you wish to go such as documents; username/downloads; desktop)
+Example: Typing in cd Username/Documents/Github while in the Username folder will put you straight into the Github folder located in your Documents folder.
 
 l**s(mac)/dir(windows):** Allows you to see the files in your directory.
+Examples: If there are 3 folders in your Documents folder called Github, Papers
 
 **git clone:** Allows you to download the repository and puts it into the directory you are in by its name.
 
+![Image](https://i.imgur.com/a80wiEO.png)
+
 **git status:** Shows us the difference between the file we have and the one in github.
 
-**git add:** Adds new files or changes to the repository.
+![Image](https://i.imgur.com/JhRTvTI.png)
+
+**git add:** Adds new files or changes to the repository. 
+
+Type git add (file name) to add your desired file and the changes associated with that file.
+
+Type git add .. to add all changes to the repository.
+(You must be in the correct directory to add the desired changes)
+
+![Image](https://i.imgur.com/d9OHJfa.png)
 
 **git commit ( -m “message here”):** To commit the file or change to the repository after adding it in.(Does not sync it up with the github yet) -m is input a message for the change.
 
+![Image](https://i.imgur.com/d12iJhS.png)
+
 (Press the esc button and then type :wq to escape the message line if do not put a message after the -m command and wish to escape.)
 
+![Image](https://i.imgur.com/7CV2biE.png)
+
 **git push:** Pushes any changes made on the machine to the github, changing the project on the repository. 
+
+![Image](https://i.imgur.com/2xYpArb.png)
 
 **git pull:** Pulls any changes or files different on the machine from the github.(Only works when in the directory of the repository)
 
