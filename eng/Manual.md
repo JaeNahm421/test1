@@ -41,6 +41,8 @@ Commands:
 
 Opening your computer’s command prompt, you should learn some basic commands that will allow you to access the repository.
 
+l**s(mac)/dir(windows):** Allows you to see the files in the current directory.
+
 **cd:** Stands for change directory, it allows you to go through your files on the command prompt. 
 Example: Typing cd Documents in the command line will allow you to go to the documents folder.
 (Only works if there is a Documents folder in the folder you are currently on.)
@@ -50,9 +52,6 @@ Example: Being in Username/Documents and typing cd .. will make you go back up t
 
 **cd** xxxx (allows you to a certain directory, xxxx stands for directory you wish to go such as documents; username/downloads; desktop)
 Example: Typing in cd Username/Documents/Github while in the Username folder will put you straight into the Github folder located in your Documents folder.
-
-l**s(mac)/dir(windows):** Allows you to see the files in your directory.
-Examples: If there are 3 folders in your Documents folder called Github, Papers
 
 **git clone:** Allows you to download the repository and puts it into the directory you are in by its name.
 
