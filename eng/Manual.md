@@ -47,11 +47,17 @@ l**s(mac)/dir(windows):** Allows you to see the files in the current directory.
 Example: Typing cd Documents in the command line will allow you to go to the documents folder.
 (Only works if there is a Documents folder in the folder you are currently on.)
 
+![](images/B.png)
+
 **cd** .. (allows you to go up a directory)
 Example: Being in Username/Documents and typing cd .. will make you go back up to the Username folder and out of the Documents folder.
 
+![](images/C.png)
+
 **cd** xxxx (allows you to a certain directory, xxxx stands for directory you wish to go such as documents; username/downloads; desktop)
 Example: Typing in cd Username/Documents/Github while in the Username folder will put you straight into the Github folder located in your Documents folder.
+
+![](images/D.png)
 
 **git clone:** Allows you to download the repository and puts it into the directory you are in by its name.
 
@@ -83,8 +89,11 @@ Type git add .. to add all changes to the repository.
 ![Image](https://i.imgur.com/2xYpArb.png)
 
 **git pull:** Pulls any changes or files different on the machine from the github.(Only works when in the directory of the repository)
+![](images/E.png)
 
 **git:** Shows all the commands available.
+
+![](images/A.png)
 
 	Accessing Altibase’s repository
 1. Go to Altibase’s Github at https://github.com/ALTIBASE.
@@ -160,5 +169,41 @@ Utilizing Altibase’s repository
 Using Typora
 ```
 
-Typora is a simple code writing program that allows you to edit code while utilizing github.
+Typora is a simple markdown editor that allows you to edit, read and write text while utilizing github. It allows the user to easily edit text in a format that is compatible with github's text format. 
 
+**Getting started on Typora**
+
+1. Open Typora on your computer. 
+
+   ![](images/F.png)
+
+2. Click file at the top and click open to open your desired file.
+
+   ![](images/G.png)
+
+   The left side should show all the files located in the file with the main screen on the right showing the content of the file you selected.
+   ![](images/H.png)
+
+**Importing images on Typora**
+
+1. Go to your github's repository and click on the upload files.
+
+   (You may want a folder to store in all the images)
+
+   ![](images/J.png)
+
+2. Add in the images you want in your repository.
+
+   ![](images/K.png)
+
+3. Pull the images from github to your computer's repository.
+
+   ![](images/E.png)
+
+4. Type in ``![What you want to name the image](Image Location)`` Since it is located in my images folder and called A.png, I type in images/A.png.
+
+   ![](images/L.png)
+
+5. Push the changes you made to your github.
+
+   ![Image](https://i.imgur.com/2xYpArb.png)
